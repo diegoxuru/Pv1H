@@ -1,0 +1,37 @@
+[
+    {
+      "idproducto": "1",
+      "nombreproducto":"Papas",
+      "unidad":"K",
+      "topeminimo": "30",
+      "topemaximo": "60"
+    },
+    {
+        "idproducto": "2",
+        "nombreproducto":"Aceite",
+        "unidad":"L",
+        "topeminimo": "90",
+        "topemaximo": "130"
+    },
+    {
+        "idproducto": "3",
+        "nombreproducto":"Palta",
+        "unidad":"Unidad",
+        "topeminimo": "40",
+        "topemaximo": "70"
+    },
+    {
+        "idproducto": "4",
+        "nombreproducto":"Tomates",
+        "unidad":"K",
+        "topeminimo": "70",
+        "topemaximo": "110"
+    },
+    {
+        "idproducto": "5",
+        "nombreproducto":"Tomates",
+        "unidad":"K",
+        "topeminimo": "70",
+        "topemaximo": "110"
+    }
+]

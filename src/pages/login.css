@@ -1,0 +1,295 @@
+
+logincuerpo {
+  display: grid;
+    grid-area: mainContent;
+
+    background: rgba(black, 0.66);
+    z-index: 1;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.colorfondo{
+  background-color: cornflowerblue;
+}
+.wrapperleft {
+  float: left;
+  color: black;
+  max-width: 500px;
+  width: 100%;
+  margin: 10% 0% 10% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.wrapperleft p {
+  font-size: 20px;
+}
+.wrapperleft .h1index {
+  font-size: 52px;
+  font-weight: 900;
+}
+/***LOGIN***/
+.wrapperright {
+  float: right;
+  border: 1px solid black;
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  margin: 5% 10% auto auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+  animation: pulse 3s infinite;
+}
+
+.wrappercenter {
+
+  position: absolute;
+
+  border-style: none;
+
+  border-radius: 5px;
+  border: none;
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  margin: 3% auto 3% auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
+  padding: 30px;
+  z-index: 1;
+  animation: pulse 3s infinite;
+}
+
+.wrappercenter .title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrappercenter .form {
+  width: 100%;
+}
+
+.wrappercenter .form .inputfield {
+  margin-bottom: 15px;
+}
+
+.wrappercenter .form .inputfield .input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrappercenter .form .inputfield .input:focus {
+  border: 1px solid #fec107;
+}
+.wrappercenter .form .inputfield .btnchooseplan {
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 15px;
+  border: 0px;
+  background: #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  margin-left: 15px;
+}
+.wrappercenter .form .inputfield .btnchooseplan:hover {
+  background: #0d6efd;;
+}
+.wrappercenter .form .inputfield .btnlogin {
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 15px;
+  border: 0px;
+  background: #0d6efd;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrappercenter .form .inputfield .btnlogin:hover {
+  background: #38caff;
+}
+
+.wrappercenter .form .inputfield:last-child {
+  margin-bottom: 0;
+}
+
+.wrapperright .title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapperright .form {
+  width: 100%;
+}
+
+.wrapperright .form .inputfield {
+  margin-bottom: 15px;
+}
+
+.wrapperright .form .inputfield .input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.wrapperright .form .inputfield .input:focus {
+  border: 1px solid #fec107;
+}
+.wrapperright .form .inputfield .btnchooseplan {
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 15px;
+  border: 0px;
+  background: #fec107;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  margin-left: 15px;
+}
+.wrapperright .form .inputfield .btnchooseplan:hover {
+  background: #ffd658;
+}
+.wrapperright .form .inputfield .btnlogin {
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 15px;
+  border: 0px;
+  background: #38b6ff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+
+.wrapperright .form .inputfield .btnlogin:hover {
+  background: #38caff;
+}
+
+.wrapperright .form .inputfield:last-child {
+  margin-bottom: 0;
+}
+
+/***MEDIAQUERYS***/
+@media (max-width: 1260px) {
+  main {
+    display: grid;
+    justify-content: center;
+  }
+
+  header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 4fr 4fr;
+    grid-area: header;
+    z-index: 1;
+  }
+
+  .wrapperright {
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding: 30px;
+  }
+  .wrapperleft {
+    max-height: 50px;
+    float: none;
+    justify-content: center;
+    color: black;
+    max-width: 350px;
+    margin: 10% 0% 15% 0%;
+    z-index: 1;
+  }
+  .wrapperleft p {
+    font-size: 17px;
+  }
+  .wrapperleft .h1index {
+    font-size: 30px;
+    font-weight: 900;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 4fr 4fr;
+    grid-area: header;
+    z-index: 1;
+  }
+  .headermain {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 4fr 4fr;
+    grid-area: header;
+    z-index: 1;
+  }
+  .wrapperright {
+    display: grid;
+    border: 1px solid black;
+    float: none;
+    margin-bottom: 30px;
+    padding: 30px;
+  }
+  .wrapperleft p {
+    font-size: 15px;
+  }
+  .wrapperleft .h1index {
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .logo {
+    height: 40%;
+  }
+  .wrapperright .title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .wrapperright .form .inputfield {
+    margin-bottom: 5px;
+  }
+
+  .wrapperright .form .inputfield .input {
+    width: 100%;
+    border: 1px solid #d5dbd9;
+    font-size: 10px;
+    padding: 4px 5px;
+    border-radius: 1px;
+  }
+
+  .wrapperright .form .inputfield .btnchooseplan {
+    padding: 8px 15px;
+    font-size: 10px;
+    margin-left: 3px;
+  }
+  .wrapperright .form .inputfield .btnlogin {
+    padding: 8px 15px;
+    font-size: 10px;
+  }
+}

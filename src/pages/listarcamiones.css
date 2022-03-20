@@ -1,0 +1,84 @@
+
+
+registrocuerpo {
+    display: grid;
+      grid-area: mainContent;
+      background: rgba(black, 0.66);
+      z-index: 2;
+    }
+    .btnalta {
+      width: 100%;
+      padding: 8px 20px;
+      font-size: 15px;
+      background: #38b6ff;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 3px;
+      float: left;
+    }
+    
+    .btnalta:hover {
+      background: #38caff;
+    }
+
+    .btnbaja {
+      width: 100%;
+      padding: 8px 20px;
+      font-size: 15px;
+      background: #ff3838;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 3px;
+      float: left;
+    }
+    
+    .btnbaja:hover {
+      background: #fa6161;
+    }
+
+    .btnedit {
+      width: 100%;
+      padding: 8px 20px;
+      font-size: 15px;
+      background:  #ffd658;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 3px;
+      float: left;
+    }
+    
+    .btnedit:hover {
+      background: #d0d32c;
+    }
+
+    .inputfield {
+      margin-bottom: 15px;
+    }
+    .wrappercenteralta {
+      border: 1px solid black;
+      width: 95%;
+      display: block;
+      background: white;
+      align-content: center;
+      margin: 3% auto 3% auto;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
+      padding: 30px;
+      position: relative;
+      z-index: 1;
+      animation: pulse 3s infinite;
+      table-layout:fixed
+    }
+
+    
+    table {
+      width:100%;
+        overflow-x:auto;
+    }
+
+    .h2alta{
+      margin-bottom: 20px;
+    }
+    td{
+      text-align: center; 
+        vertical-align: middle;
+    }

@@ -1,0 +1,8 @@
+
+registrocuerpo {
+    display: grid;
+      grid-area: mainContent;
+      background: rgba(black, 0.66);
+      z-index: 2;
+    }
+

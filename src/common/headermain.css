@@ -1,0 +1,45 @@
+.headermain {
+    display:grid;
+    align-items: center;
+    grid-template-columns: 2fr 10fr;
+    background-color: white;
+    grid-area: header;
+    position: relative;
+    z-index: 1;
+  }
+  .navindex .ulindex {
+    list-style-type: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    padding: 0px;
+  }
+  
+  .navindex .ulindex .liindex {
+    float: left;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .navindex .ulindex .liindex:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-bottom: 5px solid#38b6ff;
+    margin-bottom: -5px;
+  }
+  
+  .logo {
+    margin-left: 40px;
+  }
+  @media (max-width: 580px) {
+    .headermain {
+      display: grid;
+      align-items: center;
+      grid-template-columns: 4fr 4fr;
+      grid-area: header;
+      z-index: 1;
+    }
+    .logo {
+      height: 40%;
+    }
+  }

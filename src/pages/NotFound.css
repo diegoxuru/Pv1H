@@ -1,0 +1,32 @@
+
+notfoundcuerpo {
+  display: grid;
+    grid-area: mainContent;
+    grid-template-columns: 5fr 5fr;
+    background: rgba(black, 0.66);
+    z-index: 1;
+  }
+ 
+.wrappercenter {
+  border: 1px solid black;
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  margin: 3% auto 3% auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
+  padding: 30px;
+  position: static;
+  z-index: 1;
+  animation: pulse 3s infinite;
+}
+
+.wrappercenter .title {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
