@@ -10,9 +10,9 @@
     font-family: "Roboto", sans-serif;
     grid-template-rows: 1fr 7fr 2fr;
     grid-template-areas:
-      "header header"
-      "mainContent mainContent"
-      "footer footer";
+      "header"
+      "mainContent"
+      "footer";
     height: 100vh;
     background-color: royalblue !important;
   }
